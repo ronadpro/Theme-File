@@ -1,6 +1,6 @@
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/example/public_html/
+  - export DEPLOYPATH=/home/images/public_html/wp-content/themes/itravel-blank-theme
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
   - /bin/cp -R src/ $DEPLOYPATH
